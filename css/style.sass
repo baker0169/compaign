@@ -1,0 +1,667 @@
+*
+  margin: 0
+  font-family: Noto Sans TC
+  text-decoration: none
+*
+  box-sizing: border-box
+  -moz-box-sizing: border-box
+  -webkit-box-sizing: border-box
+input,select
+  height: 40px
+  background:#ffff
+  border-radius: 4px
+  border: 1px solid #BFBFBF
+ul
+  padding-left: 0
+  margin: 0s
+
+li
+  list-style-type: none
+.bg-cover
+  background-size: cover
+.w-dot
+  background: #FFFFFF
+  box-shadow: 0px 0px 5px #FFFFFF
+  width: 15px
+  height: 15px
+  border-radius: 100%
+  margin: 0 25px
+
+img
+  max-width: 100%
+  display: block
+  height: auto
+.container
+  max-width: 1170px
+  margin: 0 auto
+  min-height: 300px
+
+.bg
+  background-image: url("../images/bg.jpg")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+.box1-bg
+  padding: 0 0 215px 0
+  background-image: url("../images/gallaxy.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+.box2-bg
+  background-image: url("../images/intro-bg.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+.detail-box
+  justify-content: flex-end
+
+.detail-s-box
+  padding: 44px 0 0 0 
+.title-box
+  padding: 86px 0 0 0
+.join-btn-s-box
+  padding: 86px 0 0 0 
+.join-btn-box
+  width: 300px
+  align-items: center
+.join-btn
+  display: inline-block
+  padding: 11px 98px
+  text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.7)
+  font-size: 26px
+  line-height: 38px
+  color: #fff
+  background-image: url("../images/join-l.png")
+  &:hover
+    color:#a5f9f9
+.time-count-item
+  color: #fff
+  font-size: 26px 
+  margin: 0 8px 0 0  
+.time-count-txt
+  font-size: 16px
+.time-count-img
+  margin-right: 6px
+.time-count-box
+  padding: 13px 0 0 0 
+.block-head-name
+  color: #fff
+  font-size: 30px
+  line-height: 43px
+.box2
+  padding: 70px 150px
+.sp-img
+  border: 0px solid #fff
+  position: relative
+  left: -3px
+  top: -3px
+  z-index: 1
+.sp-frame
+  position: absolute
+  z-index: 2
+  width: 100%
+  height: 100%
+  border: 1px solid #A5F9F9
+.sp-img-box
+  position: relative
+  z-index: 5
+.sp-name-box
+  padding: 30px 0
+  background: #A5F9F9
+.sp-title
+  font-size: 14px
+.sp-item
+  cursor: pointer
+  position: relative
+  -webkit-transition: all 0.2s linear
+  transition: all 0.2s linear
+  &:hover
+    transform: translate(0px, -20px)
+    .sp-box
+      position: relative
+      &:after
+       transform: translate(0px, 20px)
+      &:before
+       transform: translate(0px, 20px)
+.sp-list
+  padding-bottom: 50px
+  margin-bottom: 15px
+.sp-box
+  position: relative
+  &:after
+    content:''
+    width: 16px
+    height: 16px
+    background: #fff
+    position: absolute
+    bottom: -50px
+    left: 47px 
+    -webkit-transition: all 0.2s linear
+    transition: all 0.2s linear
+  &:before
+    content:''
+    width: 1px
+    height: 84px
+    border-left: 1px solid #A5F9F9
+    position: absolute
+    bottom: -50px
+    left: 54px 
+    -webkit-transition: all 0.2s linear
+    transition: all 0.2s linear
+.sp-des-box
+  border: 1px solid #A5F9F9
+  height: 200px
+  padding: 0 40px
+  align-items: stretch
+.sp-des-txt
+  padding: 40px 0
+  color:#fff
+  width:80%
+  position: relative
+  line-height: 24px
+
+.sp-gra-mask
+  background: linear-gradient(90deg, rgba(165, 249, 249, 0.4) 0%, rgba(165, 249, 249, 0) 100%)
+  width:20%
+  height: 100%
+.ag
+  padding: 65px 0 
+  position: relative
+.ag-box
+  width: 50%
+.ag-title
+  display: inline-block
+  text-shadow: 0px 0px 4px #FFFFFF
+  color: #A5F9F9
+  font-size: 20px
+  line-height: 29px
+  width: 255px
+  text-align: center
+  background-image: url("../images/Group739.svg")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  padding: 15px 0px
+.ag-ctn-box
+  margin-bottom: 130px
+.ag-title
+  position: relative
+  &:before
+    content:''
+    position: absolute
+    width: 0
+    border: 3px dashed #fff
+    width: 120px
+    border-inline-end-width: revert
+    top:50%
+    margin-top: -4px
+  &:after
+    content:''
+    position: absolute
+    width: 16px
+    height: 16px
+    background: #fff
+    top:50%
+    margin-top: -8px
+.ag-q
+  color:#fff
+  padding: 26px 0 0 0
+  text-shadow: 0px 0px 4px #FFFFFF
+  p
+    padding: 3px
+.ag-left-box
+  text-align: right
+  padding-right: 150px
+.ag-right-box
+  padding-left: 150px
+  position: relative
+.ag-center-bar
+    width: 0px
+    height: calc(100% - 325px)
+    position: absolute
+    top: 102px
+    left: 50%
+    border-left: 5px solid #fff
+    box-shadow: 0px 0px 5px #FFFFFF
+.ag-right-s-box
+  &:nth-child(3)
+    margin: 0
+  .ag-title
+    &:before
+      left: -135px
+    &:after
+      left: -155px
+.ag-left-s-box
+  text-align: right
+  &:nth-child(2)
+    margin: 0
+  .ag-title
+    &:before
+      right: -140px
+    &:after
+      right: -160px
+
+.pay-now-box
+  width: 566px
+  margin: 95px auto 0 
+  border: 1px solid #A5F9F9
+  padding: 27px 0
+  text-align: center
+  font-weight: bold
+.pay-now-txt
+  color: #A5F9F9
+  text-shadow: 0px 0px 4px #FFFFFF
+  font-size: 36px
+  line-height: 52px
+
+.pay-now-des
+  color:#fff
+  font-size: 20px
+  line-height: 30px
+  padding: 20px 0
+  span
+    color: #A5F9F9
+.pay-now-btn
+  color: #fff
+  text-shadow: 0px 0px 4px #FFFFFF
+  font-size: 20px
+  line-height: 29px
+  display: inline-block
+  width: 160px
+  padding: 16px 0
+  background-image: url('../images/join-s.png')
+  background-repeat: no-repeat
+.pay-box-title
+  padding: 51px 0 80px
+  color: #A5F9F9
+  font-weight: bold
+  font-size: 50px
+  line-height: 72px
+  text-align: center
+.pay-status-box 
+  height: 0
+  border-bottom: 3px solid #fff
+  box-shadow: 0px 0px 3px #FFFFFF
+  width: 700px
+  margin: 0 auto 
+  color:#fff
+  margin-bottom: 60px
+.pay
+  padding: 0 0 100px
+.pay-status-dot-box
+  text-align: center
+.pay-select
+  color: #A5F9F9
+.pay-s-d-q
+  width: 30px
+  height:30px
+  background: #616571
+  border: 1px solid #A5F9F9
+  position: relative
+.pay-s-d-txt
+  position: absolute
+  width:170px
+  text-align: center
+  bottom: -50px
+.pay-step-box
+  width: 500px
+  color:#fff
+  text-align: center
+  margin: 0 auto
+  padding: 51px 0 200px
+  h3
+    font-weight: bold
+    font-size: 30px
+    line-height: 43px
+    padding: 0 0 37px 0
+.pay-qa-box
+  width: 500px
+  color:#fff
+  text-align: center
+  margin: 0 auto
+  h3
+    font-weight: bold
+    font-size: 30px
+    line-height: 43px
+    padding: 37px 0
+  p
+    text-align: left
+    line-height: 23px
+.pay-step-btn
+  display: inline-block
+  text-align: center
+  padding:7px 0 
+  width:232px
+  margin-top: 30px
+  background: #A5F9F9
+  color:#2E2E46
+  border-radius: 4px
+.pay-step-input-box
+  text-align: left
+.pay-step2-box
+  width: 630px
+.pay-step-input
+  width: 100%
+  margin: 20px 0 10px
+  text-indent: 8px
+  color:#BFBFBF
+  cursor: pointer
+  resize: none
+  border-radius: 4px
+.pay-step-input-s-box
+  margin: 0 0 30px 0
+.pay-step-area
+  padding: 8px  
+.pay-step-p
+  a
+    color:#A5F9F9
+    text-decoration: underline
+.p-s-c-box
+  width: 25%
+  margin: 10px  0 
+.pay-step-check
+  padding: 20px 0 0 0
+.p-s-l
+  cursor: pointer
+.p-s-c
+  cursor: pointer
+  width: 22px
+  height: 22px
+  border-radius: 4px
+  margin: 0 10px 0 0 
+  &:checked
+    background-color: red
+  // 公用
+.wrong-info
+  border: 3px solid #EB6767
+\::placeholder
+  color: #BFBFBF
+  opacity: 1
+
+.color-w
+  color:#fff
+.item-center
+  align-items: center
+  -webkit-box-align: center
+  -webkit-align-items: center
+  -ms-flex-align: center
+
+.fxm
+  display: -webkit-flex
+  display: -moz-flex
+  display: -webkit-box
+  display: -ms-flexbox
+  display: -moz-box
+  display: -ms-flexbox
+  display: -webkit-flex
+  display: flex
+  align-items: center
+  -webkit-box-align: center
+  -webkit-align-items: center
+  -ms-flex-align: center
+
+.fxmc-2
+  display: -webkit-flex
+  display: -moz-flex
+  display: -webkit-box
+  display: -ms-flex
+  display: -moz-box
+  display: -ms-flexbox
+  display: -webkit-flex
+  display: flex
+  align-items: center
+  -webkit-box-align: center
+  -webkit-align-items: center
+  -ms-flex-align: center
+  flex-direction: column
+  -webkit-flex-direction: column
+  -moz-flex-direction: column
+  justify-content: center
+  -webkit-justify-content: center
+  -moz-justify-content: center
+
+.fxmc
+  display: -webkit-flex
+  display: -moz-flex
+  display: -webkit-box
+  display: -ms-flex
+  display: -moz-box
+  display: -ms-flexbox
+  display: -webkit-flex
+  display: flex
+  align-items: center
+  -webkit-box-align: center
+  -webkit-align-items: center
+  -ms-flex-align: center
+  flex-direction: row
+  -webkit-flex-direction: row
+  -moz-flex-direction: row
+  justify-content: center
+  -webkit-justify-content: center
+  -moz-justify-content: center
+
+.flex-column
+  display: -webkit-flex
+  display: -moz-flex
+  display: -webkit-box
+  display: -ms-flex
+  display: -moz-box
+  display: -ms-flexbox
+  display: -webkit-flex
+  display: flex
+  flex-direction: column
+  -webkit-flex-direction: column
+  -moz-flex-direction: column
+
+.fxcc
+  display: -webkit-flex
+  display: -moz-flex
+  display: -webkit-box
+  display: -ms-flex
+  display: -moz-box
+  display: -ms-flexbox
+  display: -webkit-flex
+  display: flex
+  flex-direction: column
+  -webkit-flex-direction: column
+  -moz-flex-direction: column
+  align-items: center
+  -webkit-box-align: center
+  -webkit-align-items: center
+  -ms-flex-align: center
+
+.fxs
+  display: -webkit-flex
+  display: -moz-flex
+  display: -webkit-box
+  display: -ms-flex
+  display: -moz-box
+  display: -ms-flexbox
+  display: -webkit-flex
+  display: flex
+.fx-col-verse
+  display: -webkit-flex
+  display: -moz-flex
+  display: -webkit-box
+  display: -ms-flex
+  display: -moz-box
+  display: -ms-flexbox
+  display: -webkit-flex
+  display: flex
+  align-items: center
+  flex-direction: column-reverse
+  -webkit-flex-direction: column-reverse
+  -moz-flex-direction: column-reverse
+
+.flex-row
+  display: -webkit-flex
+  display: -moz-flex
+  display: -webkit-box
+  display: -ms-flex
+  display: -moz-box
+  display: -ms-flexbox
+  display: -webkit-flex
+  display: flex
+  align-items: center
+  flex-direction: row
+  -webkit-flex-direction: row
+  -moz-flex-direction: row
+
+.flex-row-reverse
+  display: -webkit-flex
+  display: -moz-flex
+  display: -webkit-box
+  display: -ms-flex
+  display: -moz-box
+  display: -ms-flexbox
+  display: -webkit-flex
+  display: flex
+  align-items: center
+  flex-direction: row-reverse
+  -webkit-flex-direction: row-reverse
+  -moz-flex-direction: row-reverse
+
+.fxmb
+  display: -webkit-flex
+  display: -moz-flex
+  display: -webkit-box
+  display: -ms-flex
+  display: -moz-box
+  display: -ms-flexbox
+  display: -webkit-flex
+  display: flex
+  align-items: center
+  -webkit-box-align: center
+  -webkit-align-items: center
+  -ms-flex-align: center
+  justify-content: space-between
+  -webkit-justify-content: space-between
+  -moz-justify-content: space-between
+
+.fxm-around
+  display: -webkit-flex
+  display: -moz-flex
+  display: -webkit-box
+  display: -ms-flex
+  display: -moz-box
+  display: -ms-flexbox
+  display: -webkit-flex
+  display: flex
+  align-items: center
+  -webkit-box-align: center
+  -webkit-align-items: center
+  justify-content: space-around
+  -webkit-justify-content: space-around
+  -moz-justify-content: space-around
+
+.flex-around
+  display: -webkit-flex
+  display: -moz-flex
+  display: -webkit-box
+  display: -ms-flex
+  display: -moz-box
+  display: -ms-flexbox
+  display: -webkit-flex
+  display: flex
+  justify-content: space-around
+  -webkit-justify-content: space-around
+  -moz-justify-content: space-around
+
+.flex-between
+  display: -webkit-flex
+  display: -moz-flex
+  display: -webkit-box
+  display: -ms-flex
+  display: -moz-box
+  display: -ms-flexbox
+  display: -webkit-flex
+  display: flex
+  justify-content: space-between
+  -webkit-justify-content: space-between
+  -moz-justify-content: space-between
+
+.flex-flow
+  display: -webkit-flex
+  display: -moz-flex
+  display: -webkit-box
+  display: -ms-flex
+  display: -moz-box
+  display: -ms-flexbox
+  display: -webkit-flex
+  display: flex
+  flex-flow: row wrap
+
+.left
+  float: left
+
+.right
+  float: right
+
+.between
+  justify-content: space-between
+  -webkit-justify-content: space-between
+  -moz-justify-content: space-between
+
+.around
+  justify-content: space-around
+  -webkit-justify-content: space-around
+  -moz-justify-content: space-around
+
+.transition
+  transition: all 0.3s linear
+  -webkit-transition: all 0.3s linear
+  -moz-ransition: all 0.3s linear
+
+.transition_1s
+  transition: all 1s linear
+  -webkit-transition: all 1s linear
+  -moz-ransition: all 1s linear
+
+.hide
+  display: none !important
+
+.show
+  display: block !important
+
+.show-inline
+  display: inline-block
+
+.hide-opacity
+  opacity: 0
+  pointer-events: none
+
+.hide-opacity-none
+  opacity: 0
+  display: none
+
+.show-opacity
+  opacity: 1 !important
+  pointer-events: auto !important
+  display: block !important
+
+.show-opacity2
+  opacity: 1
+  pointer-events: auto
+
+.pt50120
+  padding: 50px 0 120px
+
+.pt20
+  padding: 20px 0
+
+.btn
+  border-radius: 4px
+  position: relative
+
+  a
+    box-shadow: 1px 1px 1px #ccc
+    display: inline-block
+    padding-top: 8px
+    padding-bottom: 8px
+    text-align: center
+    position: relative
+    font-size: .85rem
+
+    &:active
+      top: 1px
+      left: 2px
