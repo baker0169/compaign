@@ -3,10 +3,161 @@
   font-family: Noto Sans TC
   text-decoration: none
 
-.container
-  width: 1170px
+.fc
+  display: flex
+  align-items: center
+  justify-content: center
+
+p
+  color: white
+  font-weight: bold
+
+.pshad
+  text-shadow: 0px 0px 4px #FFFFFF
+
+.pblue
+  color: #A5F9F9
+
+.p26
+  font-size: 26px
+
+.p20
+  font-size: 20px
+
+.p16
+  font-size: 16px
+
+.bg
+  background-image: url("../images/bg.jpg")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+
+.box1
+  max-width: 1280px
+  padding: 0px 100px
   margin: 0 auto
-  min-height: 900px
+  box-sizing: border-box
+  position: relative
+
+.fix-share
+  position: fixed
+  top: 25px
+  left: 120px
+  z-index: 5
+
+.fix-join
+  position: fixed
+  top: 25px
+  right: 120px
+  z-index: 5
+// display: none
+
+.share
+  margin: 10px 0px
+
+.icon
+  width: 40px
+  height: 40px
+  border-radius: 50px
+  margin-right: 20px
+  background-color: rgba(255, 255, 255, 0.3)
+
+.join-s
+  height: 60px
+  padding: 0px 28px
+  background-image: url("../images/join-s.png")
+  background-size: auto
+  background-repeat: no-repeat
+  background-position: center
+
+.banner
+  height: 980px
+  background-image: url("../images/gallaxy.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+
+.shooting
+  position: absolute
+  right: 20px
+  top: 105px
+
+.b1-april
+  padding-top: 110px
+  width: 100%
+
+.april
+  display: block
+  float: right
+
+.b1-title
+  padding-top: 130px
+  width: 100%
+
+.title
+  display: block
+
+.b1-join
+  padding-top: 170px
+  width: 300px
+
+.join-l
+  height: 60px
+  padding: 0px 10px
+  background-image: url("../images/join-l.png")
+  background-size: auto
+  background-repeat: no-repeat
+  background-position: left
+
+.b1-countdown
+  padding-top: 10px
+  width: 300px
+
+.clock
+  margin-right: 5px
+
+.countdown
+  margin: 0px 6px
+
+.box2
+  max-width: 768px
+  padding: 0px 35px
+  margin: 0 auto
+  box-sizing: border-box
+  position: relative
+
+.intro
+  height: 912px
+  background-image: url("../images/intro-bg.png")
+  background-size: auto
+  background-repeat: no-repeat
+  background-position: center
+
+.cat
+  margin: 0 auto
+  padding: 35px 0px
+
+.cat-title
+  padding: 0px 15px
+
+.dot
+  width: 15px
+  height: 15px
+  background-color: white
+  border-radius: 50px
+
+.videoif
+  position: relative
+  padding-top: 56.25%
+
+.video
+  margin: 0 auto
+  width: 100%
+  position: absolute
+
+.intro-sub
+  padding: 15px 0px
 
 
 

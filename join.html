@@ -8,14 +8,15 @@
     <title>DevExper</title>
 </head>
 <body>
-    <div class="pay bg">
+    <div class="pay pay-bg">
         <div class="pay-box1-bg">
             <div class="container pay-box1-block" >
                 <h2 class="pay-box-title">報名頁面</h2>
                 <div class="pay-status-box  fxmb">
                     <div class="pay-status-dot-box">
-                        <div class="pay-s-d-q pay-select fxmc">
-                            <!-- 當前階段樣式加上 pay-select -->
+                        <div class="pay-s-d-q pay-select fxmc pay-cc">
+                            <!-- 已完階段加上 pay-cc  會變成勾勾-->
+                            <img src="images/complete.svg" alt="" class="pay-s-c-img">
                             <p>1</p>
                             <p class="pay-s-d-txt">登入/註冊 HiSKIO </p>
                         </div>
@@ -191,10 +192,14 @@
                     </div>
                     <a href="javascript:void(0)"  class="pay-step-btn">確認參加，前往支付</a>
                 </div>
-                <div class="pay-step-box pay-step2-box">
+                <div class="pay-step-box pay-step2-box fxmc-2">
                     <h3>報名成功啦！一起期待活動吧！ </h3>
-                    <p class="pay-step-txt">4/28（三） 20:00 要記得出席活動喔！活動結束後2週內，我們將會退還保證金給您！</p>
-                    <a href="javascript:void(0)"  class="pay-step-btn">好！我知道了</a>
+                    <p class="pay-step-txt">zoom 觀看連結將透過官方 HiSKIO Line 發送給您，<br>
+                        4/28（三）20:00 記得出席活動，
+                        活動結束 2 週內，我們將退還保證金給你！
+                    </p>
+                    <div class="qrcode-box"><img src="images/qrcode.svg" alt="" class="qrcode-img"></div>        
+                    <a href="javascript:void(0)"  class="pay-step-btn">加入 Line 獲取通知</a>
                 </div>
             </div>
         </div>
