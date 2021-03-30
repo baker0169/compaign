@@ -106,6 +106,13 @@ img {
   width: 100%;
   padding: 0 10%;
   z-index: 10;
+  padding: 20px calc(50vw - 585px) 0;
+}
+.detail-fix .detail-s-box img {
+  display: none;
+}
+.detail-fix .rwd-join-btn {
+  display: block;
 }
 
 .detail-share-btn {
@@ -500,7 +507,7 @@ div.sp-des-box-rwd.sp-des-box {
 }
 .pay-now-box .d-q:nth-child(4) {
   right: -43px;
-  top: 46px;
+  top: 60px;
 }
 
 .pay-now-txt {
@@ -569,7 +576,7 @@ div.sp-des-box-rwd.sp-des-box {
 
 .pay-s-d-txt {
   position: absolute;
-  width: 170px;
+  width: 65px;
   text-align: center;
   bottom: -60px;
 }
