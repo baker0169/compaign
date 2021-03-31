@@ -373,4 +373,8 @@
   .pay-qa-bg {
     background-image: url("../images/question3.svg");
   }
+
+  .donate-img-box {
+    width: auto;
+  }
 }

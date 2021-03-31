@@ -1,6 +1,5 @@
 * {
   margin: 0;
-  font-family: Noto Sans TC;
   text-decoration: none;
 }
 
@@ -561,6 +560,9 @@ div.sp-des-box-rwd.sp-des-box {
 .pay-status-dot-box {
   text-align: center;
 }
+.pay-status-dot-box:nth-child(4) {
+  margin-right: -2px;
+}
 
 .pay-select {
   color: #A5F9F9;
@@ -811,8 +813,12 @@ div.sp-des-box-rwd.sp-des-box {
   padding: 0px 0 150px;
 }
 
+.donate-box {
+  justify-content: center;
+}
+
 .donate-img-box {
-  width: 50%;
+  width: auto;
   padding: 0 20px 30px 20px;
   text-align: center;
 }
