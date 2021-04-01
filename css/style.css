@@ -875,6 +875,11 @@ div.sp-des-box-rwd.sp-des-box {
   padding: 65px;
 }
 
+.sp-des-txt-rwd p {
+  position: relative;
+  z-index: 1;
+}
+
 .wrong-info {
   border: 3px solid #EB6767;
 }
